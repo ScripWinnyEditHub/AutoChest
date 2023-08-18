@@ -150,9 +150,9 @@ function thisCode()
 
                     pcall(function()
 
-                        if string.find(.Name,"ErrorMessage") then
+                        if string.find(v.Name,"ErrorMessage") then
 
-                            if string.find(.Text,"Security kick") then
+                            if string.find(v.Text,"Security kick") then
 
                                 veryImportantWaitTime = 1e9
 
