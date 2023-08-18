@@ -146,15 +146,15 @@ function thisCode()
 
             pcall(function()
 
-                for i,v in pairs(game.CoreGui:Getescendants()) do
+                for i in pairs(game.CoreGui:Getescendants()) do
 
                     pcall(function()
 
                         if string.find(v.Name,"ErrorMessage") then
 
-                            if string.find(.Text,"Security kick") then
+                            if string.find(v.Text,"Save Mode") then
 
-                                veryImportantWaitTime = 10000000000
+                                veryImportantWaitTime = 1e9
 
                                 Teleport()
 
